@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Metas Page details-->
+    <title>AADVLCA</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.jpg">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Mobile Specific Metas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--main style-->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/skins/default.css" data-name="skins">
+    <link href="css/hover.css" rel="stylesheet" media="all">
+    <!--Theme Switcher -->
+
+    <!--google font style-->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!--font-family: 'Metrophobic', sans-serif;-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600italic,600,700italic,700' rel='stylesheet' type='text/css'>
+    <!--font-family: 'Open Sans', sans-serif; -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,400italic,500,300italic,300,100,500italic' rel='stylesheet' type='text/css'>
+    <!--font-family: 'Roboto', sans-serif; -->
+
+    <!-- font icon css style-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- translator style-->
+    <link rel="stylesheet" href="css/translator.css">
+
+    <!-- custom slider style and js-->
+    <link rel="stylesheet" type="text/css" href="Slider/engine1/style.css" />
+    <script type="text/javascript" src="Slider/engine1/jquery.js"></script>
+
+    <!-- Custom css-->
+    <style>
+        .section-title {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        .section-title h2 {
+            font-size: 28px;
+            font-weight: 400;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            position: relative;
+            color: white:
+        }
+
+        .section-title h2::before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 120px;
+            height: 1px;
+            background: #ddd;
+            bottom: 1px;
+            left: calc(50% - 60px);
+        }
+
+        .section-title h2::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 40px;
+            height: 3px;
+            background: #68A4C4;
+            bottom: 0;
+            left: calc(50% - 20px);
+        }
+
+        .container-service {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background-color: #efefef;
+            color: black !important;
+            padding-bottom: 10px;
+            margin: 10px 35px 10px 35px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        }
+
+        <style>
+        /* Hide potential loading elements initially */
+
+        .goog-te-spinner-pos,
+        .goog-te-spinner-animation,
+        .goog-te-spinner-load {
+            display: none !important;
+        }
+
+        /* Ensure the translate banner is hidden */
+
+        .goog-te-banner-frame.skiptranslate {
+            display: none !important;
+        }
+
+        body {
+            top: 0px !important;
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49735433-43"></script>-->
+    <!--<script>-->
+    <!--  window.dataLayer = window.dataLayer || [];-->
+    <!--  function gtag(){dataLayer.push(arguments)};-->
+    <!--  gtag('js', new Date());-->
+
+    <!--  gtag('config', 'UA-49735433-43');-->
+    <!--</script>-->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E3TC0T55PG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-E3TC0T55PG');
+    </script>
+
+
+    <!--wrapper start-->
+    <div class="wrapper" id="wrapper">
+
+
+        <!--Header start -->
+        <header>
+            <!-- FOR NOTIFICATION-->
+            <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+            <!-- FOR NOTIFICATION-->
+
+            <!--Language start -->
+            <div class="container">
+                <div class="row relative">
+                    <div class="col-lg-12 col-md-6-col-sm-none">
+                        <ul class="language">
+                            <div id="google_translate_element"></div>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--/Language end -->
+            <!--menu start-->
+            <div class="menu">
+                <br>
+                <div class="navbar-wrapper">
+                    <div class="container no-pad-xs">
+                        <!-- Navbar start -->
+                        <div class="navwrapper">
+                            <div class="navbar navbar-inverse navbar-static-top">
+                                <div class="container">
+                                    <nav class="navArea">
+                                        <div class="navbar-header">
+                                            <img src="img/logo.jpg" height="70px" alt="" style="margin-top: 5px !important;border-radius: 50%;"><span style="padding-left:5px; font-size=20px;">
+                                                AADVLA</span>
+                                            <span>
+                                                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                                    data-target=".navbar-collapse"> <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span> <span class="icon-bar"></span>
+                                            </button>
+                                        </div>
+                                        <div class="navbar-collapse collapse">
+                                            <ul class="nav navbar-nav" id="navigation">
+
+                                                <li class="active" id="home"><a href="index.php">HOME</a></li>
+
+                                                <li><a href="about.php">ABOUT</a></li>
+                                                <li><a href="team.php">TEAM</a></li>
+
+                                                <li><a href="services.php">SERVICES</a></li>
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                        RESOURCES <span class="caret"></span>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+
+                                                        <li><a href="faq.php">FAQ</a></li>
+
+                                                        <li><a href="tables.php">FEES</a></li>
+
+                                                    </ul>
+                                                </li>
+
+                                                <li class="dropdown">
+                                                    <a href="#" " class=" dropdown-toggle "
+                                                        data-toggle="dropdown ">BLOG<span class="caret "></span></a>
+                                                    <ul class="dropdown-menu ">
+                                                        <li><a href="manager_blog.php ">Manager Blog</a></li>
+                                                        <li><a href="Second_manager_blog.php ">Second_manager</a></li>
+                                                        <li><a href="# ">Drop Down 3</a></li>
+                                                        <li><a href="# ">Drop Down 4</a></li>
+
+                                                    </ul>
+                                                </li>
+                                                <li><a href="media.php ">MEDIA</a></li>
+
+                                                <li><a href="contact.php ">CONTACT US</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Navbar end -->
+
+                    </div>
+                </div>
+            </div>
+            <!--menu end-->
+
+            <!--Header form -->
+
+
+        </header>
+        <!--Header end -->
+        <!--banner start -->
+        <div class="header_v1 ">
+            <div class="banner row " id="banner ">
+                <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12 noPadd slides-container " style="height:100% ">
+
+
+                    <!--background slide show start-->
+                    <div class="slide ">
+                        <!--Header text1 start-->
+                        <div class="text ">
+                            <h3 style=" color:#fefefe !important; left:0; top:50%; align-item:center; padding:30px 0 0 30px; z-index:999999 ; font-size:25px; line-height:36px; font-weight:700; ">Welcome to the Driver and Vehicle Licensing Authority! </h3>
+                            <p style="color:#fefefe !important; text-align:center; ">We ensure that good driving standards are promoted
+                                throughout the country and promote
+                                the best practices for licensing drivers and vehicles</p>
+                            <p style="text-align:center; align-item:center " class="smooth "><a href="# ">LEARN MORE</a>
+                            </p>
+                        </div>
+                        <!--Header text1 end-->
+
+                        <img src=" img/diageo.jpg " alt="image01 ">
+
+                    </div>
+
+                    <!--background slide show start-->
+                    <div class="slide ">
+                        <!--Header text1 start-->
+                        <div class="container hedaer-inner ">
+                            <div class="bannerText ">
+                                <h3>Welcome to the Driver and Vehicle Licensing Authority! </h3>
+
+                                <p>We ensure that good driving standards are promoted throughout the country and
+                                    promote
+                                    the best practices for licensing drivers and vehicles</p>
+                                <p><a href="# " class="smooth ">Learn More</a></p>
+
+                            </div>
+                        </div>
+                        <!--Header text1 end-->
+
+                        <img src="img/BQ6B8221.jpg " alt="image01 ">
+
+                    </div>
+
+                    <!--background slide show start-->
+                    <div class="slide ">
+                        <!--Header text1 start-->
+                        <div class="container hedaer-inner ">
+                            <div class="bannerText ">
+                                <h3>DVLA Services</h3>
+
+                                <p>Take time to browse our site and learn about all of our services and resources to
+                                    put
+                                    you on the road and keep you safe.</p>
+                                <p><a href="# " class="smooth ">Learn More</a></p>
+
+                            </div>
+                        </div>
+                        <!--Header text1 end-->
+
+                        <img src="img/slider1.jpg " alt="image01 ">
+
+                    </div>
+
+                    <!--background slide show start-->
+                    <div class="slide ">
+                        <!--Header text1 start-->
+                        <div class="container hedaer-inner ">
+                            <div class="bannerText ">
+                                <h3>Your License Just Got Smarter</h3>
+
+                                <p>DVLA will soon be launching smart drivers licenses by the end of next month...
+                                </p>
+                                <p><a href="# " class="smooth ">Learn More</a></p>
+
+                            </div>
+                        </div>
+                        <!--Header text1 end-->
+
+                        <img src="img/slider2.jpg " alt="image01 ">
+
+                    </div>
+
+
+                    <!--background slide show end-->
+                </div>
+            </div>
+        </div>
+        <!--banner end -->
+
+        <!--Header form -->
+
+
+        </header>
+        <!--Header end -->
+        <section class="white_section ">
+            <div class="container-service ">
+                <div class="section-title ">
+                    <h2 style="color:black ">SERVICES</h2>
+                </div>
+
+                <!-- Driver and Vihicles -->
+                <div class="container-fluid ">
+                    <div class="row ">
+                        <div class="col-md-6 col-lg-6 ">
+                            <a href="services.php#driver_licensing ">
+                                <div class="containerf ">
+                                    <img src="images/driver_licensing.jpg " alt="Driver Licensing " class="image ">
+                                    <h1 class="text text-center ">DRIVER <br>LICENSING</h1>
+                                    <div class="overlay ">
+                                        <h1 class="text text-center ">DRIVER <br>LICENSING</h1>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6 ">
+                            <a href="services.php#vehicle_licensing ">
+                                <div class="containerf1 ">
+                                    <img src="images/vehicle_licensing.jpg " alt="Vehicle Licensing " class="image ">
+                                    <h1 class="text text-center ">VEHICLE <br>LICENSING</h1>
+                                    <div class="overlay ">
+                                        <h1 class="text text-center ">VEHICLE <br>LICENSING</h1>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Driver and Vihicles -->
+        <section class="grey_section ">
+            <div class="section-title ">
+                <br>
+                <h2>MESSAGE FROM CEO</h2>
+            </div>
+            <!-- ceo at home page -->
+            <section class="ceobg ">
+
+                <div class="container ">
+                    <div class="row bpad ">
+                        <div class="col-md-8 col-lg-8 " data-aos="fade-up ">
+
+                        </div>
+                        <div class="col-md-4 col-lg-4 pushup wc ">
+                            <div class="well ">
+                                <h3 class="wc "> Mr. (CEO) </h3>
+                                <p> Mr. CEO has over 10 years of hands on experience in Business and
+                                    Technology Development, Strategic Planning, Project and People management.
+                                    Until his
+                                    appointment as CEO of the Driver and Vehicle Licensing Authority (DVLA), Mr.
+                                    Busia
+                                    was
+                                    the Information Services Manager of Tullow Ghana Ltd.
+                                    <br>
+                                    He has also worked as a Programme Manager and as an Informatics Director for
+                                    the
+                                    Centres
+                                    for Disease Control (CDC) tackling enterprise-wide projects such as the 3.5
+                                    billion
+                                    dollars’ vaccine ordering, forecasting, distribution and tracking
+                                    application which
+                                    covers all States and territories of the United States of America.
+                                </p>
+                                <!-- <p><a href="# " class="wc "><strong>LEARN MORE</strong> </a></p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- ceo at home page -->
+
+
+
+        <!-- latest news  -->
+        <section class="grey_section section_gap ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="heading ">
+                        <h1><span>LATEST NEWS</span></h1>
+                    </div>
+                    
+              <div class='col-xs-12 col-sm-4 col-md-3 col-lg-3'>
+                        <div class='panel panel-default hvr-shadow hvr-shadow'>
+                            <div class=' panel-body2 '>
+                                <a href='singlenews.php?news=524e05dc77239f3a15dab766aaa59a9e432efde7' class='bc'>
+                                    <img src='assets/img/photo_5850616090428817580_y.jpg' class='img-responsive' style='width:350px;height:150px'></a>
+                            </div>
+                            <div class='panel-footer' style='height:280px;'>
+                                <h3 align='center'>
+                                  AADVLCA Website development progress report </h3>
+                                <span style='text-transform: uppercase; font-weight: bold;font:#000'> News |
+                                </span>
+                                <span style='text-transform: uppercase; font-weight: bold'>  June 29th 2024  </span>
+                                <p align='justify'>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolor corporis sapiente quibusdam sint ... ...</p>
+                                <p><a href='singlenews.php?news=524e05dc77239f3a15dab766aaa59a9e432efde7'
+                                        class='bc'><strong>LEARN MORE</strong> </a></p>
+
+                            </div>
+                        </div>
+                    </div>
+              <div class='col-xs-12 col-sm-4 col-md-3 col-lg-3'>
+                        <div class='panel panel-default hvr-shadow hvr-shadow'>
+                            <div class=' panel-body2 '>
+                                <a href='singlenews.php?news=524e05dc77239f3a15dab766aaa59a9e432efde7' class='bc'>
+                                    <img src='assets/img/photo_5850616090428817580_y.jpg' class='img-responsive' style='width:350px;height:150px'></a>
+                            </div>
+                            <div class='panel-footer' style='height:280px;'>
+                                <h3 align='center'>
+                                  Test Test Post form Admin Pannel </h3>
+                                <span style='text-transform: uppercase; font-weight: bold;font:#000'> News |
+                                </span>
+                                <span style='text-transform: uppercase; font-weight: bold'>  April 25th 2024  </span>
+                                <p align='justify'>
+                                    lLorem Ipsum&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has ... ...</p>
+                                <p><a href='singlenews.php?news=524e05dc77239f3a15dab766aaa59a9e432efde7'
+                                        class='bc'><strong>LEARN MORE</strong> </a></p>
+
+                            </div>
+                        </div>
+                    </div>
+              <div class='col-xs-12 col-sm-4 col-md-3 col-lg-3'>
+                        <div class='panel panel-default hvr-shadow hvr-shadow'>
+                            <div class=' panel-body2 '>
+                                <a href='singlenews.php?news=524e05dc77239f3a15dab766aaa59a9e432efde7' class='bc'>
+                                    <img src='assets/img/import-1.jpg' class='img-responsive' style='width:350px;height:150px'></a>
+                            </div>
+                            <div class='panel-footer' style='height:280px;'>
+                                <h3 align='center'>
+                                  Test Title </h3>
+                                <span style='text-transform: uppercase; font-weight: bold;font:#000'> News |
+                                </span>
+                                <span style='text-transform: uppercase; font-weight: bold'>  April 1st 2024  </span>
+                                <p align='justify'>
+                                    is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ... ...</p>
+                                <p><a href='singlenews.php?news=524e05dc77239f3a15dab766aaa59a9e432efde7'
+                                        class='bc'><strong>LEARN MORE</strong> </a></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+    </section>
+    <!-- latest news  -->
+
+    <!--Bottom Four Column start-->
+    <section class="blue_section section_gap ">
+        <div class="container ">
+            <div class="row bottomfourcol ">
+                <!-- Footer About us start-->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 bottomAbout ">
+                    <h5 class="heading ">USEFUL LINKS</h5>
+                    <ul class="list-unstyled wc ">
+                        <li><a href="# " class="wc ">Online Application</a></li>
+                        <li><a href="# " class="wc ">New Driver's License </a></li>
+                        <li><a href="# " class="wc ">Renewal of Driver's License</a></li>
+                        <li><a href="# " class="wc ">Privacy Policy</a></li>
+                        <li><a href="# " class="wc ">Terms and Condition</a></li>
+                    </ul>
+                </div>
+                <!-- Footer About us end-->
+                <!-- Footer Recent news start-->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+                    <h5 class="heading ">ABOUT</h5>
+                    <ul class="list-unstyled wc ">
+                        <li><a href="# " class="wc ">Accident Procedure</a></li>
+                        <li><a href="# " class="wc ">Change Of Use</a></li>
+                        <li><a href="# " class="wc ">International Driving Permit</a></li>
+                        <li><a href="# " class="wc ">Replacement of Old License</a></li>
+                        <li><a href="# " class="wc ">Replacement of Lost License </a></li>
+                        <li><a href="# " class="wc ">Change of Ownership</a></li>
+                    </ul>
+                </div>
+                <!-- Footer Recent news end-->
+                <!-- Footer How it works start-->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+                    <h5 class="heading ">SERVICES</h5>
+
+                    <ul class="list-unstyled wc ">
+                        <li><a href="# " class="wc ">Vehicle Registration</a></li>
+                        <li><a href="# " class="wc ">Roadworthiness</a></li>
+                        <li><a href="# " class="wc ">License Upgrade</a></li>
+                        <li><a href="# " class="wc ">Proficiency Test</a></li>
+                        <li><a href="# " class="wc ">Trade Plates</a></li>
+                        <li><a href="# " class="wc ">Physical Conversion</a></li>
+                    </ul>
+                </div>
+                <!-- Footer How it works end-->
+                <!-- Footer we accept start-->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 bottomAbout ">
+                    <h5 class="heading ">Contact Us</br>
+                        <p>Equatorial Guinea St. Haya Hulet, Addis Ababa <br>
+                            <strong><i class="fa fa-phone "></i> Phone:</strong><a href="tel:0302746760 "></a><br>
+                            <strong><i class="fa fa-phone "></i> Phone:</strong><a href="tel:0302746763 "></a><br>
+                            <strong>Email:</strong> infoaadvla@gmail.com
+                        </P>
+
+                        <h5>We Are Social On</h5>
+                        <div class="socialshare ">
+                            <a href="https://www.facebook.com/aadvlca/ " target="new "><i class="fa fa-facebook "></i></a>
+                            <a href="# " target="new "><i class="fa fa-twitter "></i></a>
+                            <a href="# " target="new "><i class="fa fa-instagram "></i></a>
+                            <!-- <a href="# "><i class="fa fa-youtube "></i></a> -->
+                            <a href="# "><i class="fa fa-linkedin "></i></a>
+                        </div>
+
+                </div>
+
+                <!-- Footer we accept end-->
+
+
+
+            </div>
+            <hr>
+
+            <div class="row ">
+                <div class="pull-left ">
+                    <p>&copy; 2024 DVLA. All Rights Reserved | Developed by PrimeEthiopia</p>
+                </div>
+                <div class="pull-right "><a class="gototop smooth " href="#wrapper ">Go To Top<i
+                            class="fa fa-chevron-up "></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+    <!--wrapper end-->
+
+    <!--modernizr js-->
+    <!-- <script type="text/javascript " src="js/modernizr.custom.26633.js "></script>  -->
+    <!--jquary min js-->
+    <script type="text/javascript " src="js/jquery-1.11.2.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+
+    <!--for placeholder jquery-->
+    <script type="text/javascript " src="js/jquery.placeholder.js "></script>
+
+    <!--for header jquery-->
+    <script type="text/javascript " src="js/stickUp.js "></script>
+    <script src="js/jquery.superslides.js " type="text/javascript " charset="utf-8 "></script>
+    <script type="text/javascript ">
+    "use strict ";
+
+    $('.header_v1 #banner').superslides({
+        animation: 'fade',
+        play: 5000
+    });
+    //]]>
+    </script>
+
+    <!--for portfolio jquery-->
+    <script src="js/jquery.isotope.js " type="text/javascript "></script>
+    <link type="text/css " rel="stylesheet " property="stylesheet " id="theme " href="css/jquery-ui-1.8.16.custom.css ">
+    <link type="text/css " rel="stylesheet " property="stylesheet " href="css/lightbox.min.css ">
+    <script type="text/javascript " src="js/jquery.ui.widget.min.js "></script>
+    <script type="text/javascript " src="js/jquery.ui.rlightbox.js "></script>
+
+    <!--for video lightbox -->
+    <link rel="stylesheet " property="stylesheet " href="css/prettyPhoto.css " type="text/css " media="screen "
+        title="prettyPhoto main stylesheet " />
+    <script src="js/jquery.prettyPhoto.js " type="text/javascript "></script>
+
+    <!--contact form js-->
+    <script type="text/javascript " src="js/jquery.contact.js "></script>
+
+
+    <!--about jquery-->
+    <!-- <script src="js/jquery.classyloader.min.html "></script> -->
+    <script defer src="js/jquery.flexslider.js "></script>
+    <!-- <script src="js/jquery.easing.js "></script> 
+    <script src="js/jquery.mousewheel.js "></script>  -->
+    <script defer src="js/slideroption.js "></script>
+
+    <!--Home Testimonial -->
+    <script>
+
+
+    </script>
+
+    <!--for coundown jquary-->
+    <script type="text/javascript " src="js/jquery.countTo.js "></script>
+
+    <script type="text/javascript ">
+    jQuery(function($) {
+        $(document).ready(function() {
+            //enabling stickUp on the '.navbar-wrapper' class
+            $('.navbar-wrapper').stickUp({
+                parts: {
+                    0: 'banner',
+
+                },
+                itemClass: 'menuItem',
+                itemHover: 'active',
+                topMargin: 'auto'
+            });
+
+            // run rlightbox
+            $(".lb ").rlightbox();
+            $(".lb_title-overwritten ").rlightbox({
+                overwriteTitle: true
+            });
+
+            $('.flexslider').flexslider({
+                animation: "fade ",
+                animationLoop: true,
+                slideshow: true,
+                pauseOnAction: false,
+                slideshowSpeed: 7000,
+                controlNav: true,
+                start: function(slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+
+            var activeImage;
+
+            var getmaxHeight = 0;
+            $(".testimonialText li ").each(function(index, element) {
+                if ($(this).height() > getmaxHeight) {
+                    getmaxHeight = $(this).height();
+                    $(".footerTopContent ").height(getmaxHeight);
+                }
+            });
+
+            $(".testimonialText li ").fadeTo("fast ", 0);
+            $(".testimonialText li:first ").fadeTo("fast ", 1);
+            $(".imageSlide .imageBox ").removeClass("activeImage ");
+            $(".imageSlide .imageBox:first ").addClass("activeImage ");
+            $(".imageSlide .imageBox ").mouseenter(function() {
+                if (!$(this).hasClass("activeImage ")) {
+                    var gi = $(this).index();
+                    //console.log(gi);
+                    $(".imageSlide .imageBox ").removeClass("activeImage ");
+                    $(this).addClass("activeImage ");
+                    $(".testimonialText li ").fadeTo("fast ", 0);
+                    $(".testimonialText li:eq( " + gi + ") ").fadeTo("fast ", 1);
+                }
+            })
+
+            // Video lightbox
+            $("a[data-rel^='prettyPhoto' ] ").prettyPhoto();
+
+            // for client work jquary
+            var windowBottom = $(window).height() + 0;
+            var index = 0;
+            $(document).scroll(function() {
+                divposition = parseInt($('.factabout').offset().top), 10;
+                divsrollpos = parseInt($(window).scrollTop()), 10;
+                ctop = parseInt(divposition - divsrollpos), 10;
+                if (ctop < Math.round(windowBottom / 2)) {
+                    if (index == 0) {
+
+                        $('.timer').each(count);
+
+                    }
+                    index++;
+                }
+            });
+
+
+
+            function count(options) {
+                var $this = $(this);
+                options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+                $this.countTo(options);
+            }
+
+
+        });
+
+    });
+    </script>
+    <!-- Google translate -->
+    <script type="text/javascript ">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            defaultLanguage: 'en',
+            pageLanguage: 'en',
+            includedLanguages: 'am,en,om,ti',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+    }
+
+    // Wait until the DOM is fully loaded
+    document.addEventListener('DOMContentLoaded', function() {
+        // Use MutationObserver to monitor changes to the Google Translate widget
+        const observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                // Hide the loading elements if they appear
+                const spinner = document.querySelector('.goog-te-spinner-pos');
+                if (spinner) {
+                    spinner.style.display = 'none';
+                }
+                const spinnerAnimation = document.querySelector('.goog-te-spinner-animation');
+                if (spinnerAnimation) {
+                    spinnerAnimation.style.display = 'none';
+                }
+                const spinnerLoad = document.querySelector('.goog-te-spinner-load');
+                if (spinnerLoad) {
+                    spinnerLoad.style.display = 'none';
+                }
+            });
+        });
+
+        // Start observing the Google Translate element for changes
+        const targetNode = document.getElementById('google_translate_element');
+        if (targetNode) {
+            observer.observe(targetNode, {
+                childList: true,
+                subtree: true
+            });
+        }
+    });
+    </script>
+    <script type="text/javascript " src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit ">
+    </script>
+
+    <!--Theme switcher -->
+    <script type="text/javascript " src="switcher/js/jquery.cookie.js "></script> <!-- jQuery cookie -->
+
+
+    <!--for theme custom jquery-->
+    <script src="js/custom.js "></script>
+</body>
+
+
+</html>
